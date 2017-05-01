@@ -1,0 +1,2 @@
+model_checkpoint_path: "skip-gram.ckpt-1"
+all_model_checkpoint_paths: "skip-gram.ckpt-1"
