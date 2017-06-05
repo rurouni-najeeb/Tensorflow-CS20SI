@@ -137,7 +137,7 @@ def _create_summary(model):
     tf.summary.scalar("content_loss",model['content_loss'])
     tf.summary.scalar("style_loss",model['style_loss'])
     summary_op = tf.summary.merge_all()
-    pass
+    return summary_op
 
 def train(model, generated_image, initial_image):
     """ Train your model.
